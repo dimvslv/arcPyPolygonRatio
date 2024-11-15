@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>PolygonRatio</Name><AddInID>{2ed3853f-6d41-4fe5-b544-242f3630ffef}</AddInID><Description>Shows area balance selected polygons</Description><Version>1</Version><Image>Images\ratio.png</Image><Author>Dmitrii Vasilev</Author><Company>Almatygenplan</Company><Date>11/14/2024</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="arcPyPolygonRatioV1_addin.py" namespace="arcPyPolygonRatioV1_addin"><ArcMap>
+    <Commands>
+        <Button caption="PolygonRatio" category="PolygonRatio" class="ButtonClass1" id="arcPyPolygonRatioV1_addin.button" image="Images\ratio.png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="PolygonRatio" category="PolygonRatio" id="arcPyPolygonRatioV1_addin.toolbar" showInitially="true"><Items><Button refID="arcPyPolygonRatioV1_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
